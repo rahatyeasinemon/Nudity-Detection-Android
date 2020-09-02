@@ -1,4 +1,4 @@
-Nudity-Detecttion-Android
+Nudity-Detection-Android
 # The coding description of my research paper
 https://www.researchgate.net/publication/341851946_A_Novel_Nudity_Detection_Algorithm_for_Web_and_Mobile_Application_Development https://arxiv.org/ftp/arxiv/papers/2006/2006.01780.pdf
 
