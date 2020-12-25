@@ -84,7 +84,14 @@ fun checkNudity(imageView: ImageView) {
                 val b = Color.blue(pixel)
                 val g = Color.green(pixel)
                 var a = Color.alpha(pixel)
-// Detect skin pixels in faces region if (classifySkin(r, g, b)) { facePixel++ } } } } bm = BitmapDrawable(resources, tempBitmap).bitmap
+// Detect skin pixels in faces region 
+
+if (classifySkin(r, g, b)) { facePixel++} 
+     }
+    } 
+  }
+
+bm = BitmapDrawable(resources, tempBitmap).bitmap
 
     for (x in 0 until bitmapImage.width) {
 
