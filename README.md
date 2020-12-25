@@ -91,7 +91,9 @@ class MainActivity : AppCompatActivity() {
                     val b = Color.blue(pixel)
                     val g = Color.green(pixel)
                     var a = Color.alpha(pixel)
+                    
 // Detect skin pixels in faces region
+
                     if (classifySkin(r, g, b)) {
                         facePixel++
                     }
@@ -109,7 +111,9 @@ class MainActivity : AppCompatActivity() {
                 val b = Color.blue(pixel)
                 val g = Color.green(pixel)
                 var a = Color.alpha(pixel)
+                
                 // Detect skin pixels in overall image
+                
                 if (classifySkin(r, g, b)) {
                     skinPixel++
                     bm.setPixel(x, y, Color.rgb((t + 101) % 255, (10 + t) % 255, (110 + t) % 255))
